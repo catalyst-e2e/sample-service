@@ -1,0 +1,12 @@
+[project]
+linear_team = "ADV"
+linear_workspace = "adva-test"
+
+[environment]
+
+[[environment.toolchains]]
+name = "node"
+version = "24.19.0"
+
+[environment.container]
+egress = ["nodejs.org"]
