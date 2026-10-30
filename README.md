@@ -4,6 +4,7 @@ A tiny TypeScript HTTP service used to rehearse Catalyst Cloud onboarding end to
 
 - `bun run start` — serves `GET /health` → `{ ok: true }` and `GET /greet?name=…`
   - `GET /greet` with no `name` returns `hello, world`; `GET /greet?name=Tony` returns `hello, Tony`
+- Port: listens on `3000` by default (set `PORT` to override)
 - `bun test` — runs the unit tests
 
 This repository is intentionally small: it exists so a fresh tenant has one real repo, one real PR,
