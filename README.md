@@ -3,6 +3,7 @@
 A tiny TypeScript HTTP service used to rehearse Catalyst Cloud onboarding end to end.
 
 - `bun run start` — serves `GET /health` → `{ ok: true }` and `GET /greet?name=…`
+  - `GET /health` is the health check; a healthy service replies `200 OK` with the JSON body `{"ok":true}`
   - `GET /greet` with no `name` returns `hello, world`; `GET /greet?name=Tony` returns `hello, Tony`
 - Port: listens on `3000` by default (set `PORT` to override)
 - `bun test` — runs the unit tests
