@@ -2,6 +2,8 @@
 
 A tiny TypeScript HTTP service used to rehearse Catalyst Cloud onboarding end to end.
 
+The service runs with no database and calls no outside service.
+
 ## Start locally
 
 With Bun installed, run this command from the repository root:
