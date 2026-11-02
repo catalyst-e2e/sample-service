@@ -22,3 +22,7 @@ The service listens on port 3000 by default. Check http://localhost:3000/health.
 
 This repository is intentionally small: it exists so a fresh tenant has one real repo, one real PR,
 and a couple of tickets to work — nothing here is production code.
+
+## Running
+
+Run `bun run start` to start the service locally (listens on http://localhost:3000; override with `PORT`).
