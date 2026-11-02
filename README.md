@@ -7,6 +7,7 @@ A tiny TypeScript HTTP service used to rehearse Catalyst Cloud onboarding end to
   - `GET /greet` with no `name` returns `hello, world`; `GET /greet?name=Tony` returns `hello, Tony`
 - Port: listens on `3000` by default (set `PORT` to override)
 - `bun test` — runs the unit tests
+- Report a bug: open an issue at https://github.com/catalyst-e2e/sample-service/issues
 
 This repository is intentionally small: it exists so a fresh tenant has one real repo, one real PR,
 and a couple of tickets to work — nothing here is production code.
