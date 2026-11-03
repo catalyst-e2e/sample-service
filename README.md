@@ -20,7 +20,8 @@ The service listens on port 3000 by default. Check http://localhost:3000/health.
 - Port: listens on `3000` by default (set `PORT` to override)
 - `bun test` — runs the unit tests
   - `bun test ./src/greet.test.ts` runs one test file on its own; keep the leading `./` so Bun reads it as a path
-- Versions: the service runs on Bun 1.4.2, the version CI uses (`.github/workflows/ci.yml`). Catalyst's build and test environment provisions Node 24.19.0, set in `.catalyst/catalyst.toml`.
+- Runtime: the service is run and tested with Bun 1.4.2, the version CI pins in `.github/workflows/ci.yml`.
+- Node cannot run the service or its tests. The Node toolchain in `.catalyst/catalyst.toml` belongs to Catalyst's container.
 - Report a bug: open an issue at https://github.com/catalyst-e2e/sample-service/issues
 
 This repository is intentionally small: it exists so a fresh tenant has one real repo, one real PR,
