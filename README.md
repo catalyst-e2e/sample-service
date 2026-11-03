@@ -23,3 +23,8 @@ The service listens on port 3000 by default. Check http://localhost:3000/health.
 
 This repository is intentionally small: it exists so a fresh tenant has one real repo, one real PR,
 and a couple of tickets to work — nothing here is production code.
+
+## Where each route lives
+
+- `GET /health`: `src/server.ts`
+- `GET /greet`: `src/server.ts`, which calls `greet()` in `src/greet.ts` to build the reply
