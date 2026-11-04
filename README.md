@@ -13,6 +13,7 @@ bun run start
 ```
 
 The service listens on port 3000 by default. Check http://localhost:3000/health.
+To stop the service, press Ctrl+C in the terminal running it.
 
 - `bun run start` — serves `GET /health` → `{ ok: true }` and `GET /greet?name=…`
   - `GET /health` is the health check; a healthy service replies `200 OK` with the JSON body `{"ok":true}`
