@@ -22,6 +22,7 @@ To stop the service, press Ctrl+C in the terminal running it.
 - `bun test` — runs the unit tests
   - `bun test ./src/greet.test.ts` runs one test file on its own; keep the leading `./` so Bun reads it as a path
 - Runtime: the service is run and tested with Bun 1.4.2, the version CI pins in `.github/workflows/ci.yml`.
+  - CI runs the tests on every pull request and on each push to main, as defined in `.github/workflows/ci.yml`.
 - Node cannot run the service or its tests. The Node toolchain in `.catalyst/catalyst.toml` belongs to Catalyst's container.
 - Report a bug: open an issue at https://github.com/catalyst-e2e/sample-service/issues
 
