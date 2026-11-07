@@ -1,0 +1,6 @@
+interface:
+  display_name: "Catalyst Readiness"
+  short_description: "One pass over your workspace's setup — evaluate every team, apply the repairs that have a verb, hand back one list"
+  default_prompt: "Use $catalyst-readiness to check and repair my workspace's setup."
+policy:
+  allow_implicit_invocation: false
