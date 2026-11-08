@@ -40,3 +40,7 @@ and a couple of tickets to work — nothing here is production code.
 ## License
 
 No license file yet.
+
+## Reporting problems
+
+Open an issue in this repository.
