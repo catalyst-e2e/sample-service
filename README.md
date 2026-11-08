@@ -36,3 +36,7 @@ and a couple of tickets to work — nothing here is production code.
 - `GET /health`: `src/server.ts`
 - `GET /greet`: `src/server.ts`, which calls `greet()` in `src/greet.ts` to build the reply
 - The unit tests are in `src/greet.test.ts`
+
+## License
+
+No license file yet.
