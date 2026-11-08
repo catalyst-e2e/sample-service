@@ -24,6 +24,7 @@ To stop the service, press Ctrl+C in the terminal running it.
 - Runtime: the service is run and tested with Bun 1.4.2, the version CI pins in `.github/workflows/ci.yml`.
   - Run the tests from the repository root with `bun test`.
   - CI runs the tests on every pull request and on each push to main, as defined in `.github/workflows/ci.yml`.
+  - The service source code is in `src/`.
 - Node cannot run the service or its tests. The Node toolchain in `.catalyst/catalyst.toml` belongs to Catalyst's container.
 - Report a bug: open an issue at https://github.com/catalyst-e2e/sample-service/issues
 
