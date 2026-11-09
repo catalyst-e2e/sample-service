@@ -52,3 +52,7 @@ Run tests with `bun test`.
 ## License
 
 No license file yet.
+
+## Support
+
+Open an issue in this repository.
