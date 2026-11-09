@@ -56,3 +56,7 @@ No license file yet.
 ## Support
 
 Open an issue in this repository.
+
+## Contributing
+
+Open a pull request against main.
