@@ -37,10 +37,6 @@ and a couple of tickets to work — nothing here is production code.
 - `GET /greet`: `src/server.ts`, which calls `greet()` in `src/greet.ts` to build the reply
 - The unit tests are in `src/greet.test.ts`
 
-## License
-
-No license file yet.
-
 ## Reporting problems
 
 Open an issue in this repository.
@@ -52,3 +48,7 @@ Tested on Bun 1.4.2, the version `.github/workflows/ci.yml` pins.
 ## Testing
 
 Run tests with `bun test`.
+
+## License
+
+No license file yet.
