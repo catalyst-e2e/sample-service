@@ -60,3 +60,7 @@ Open an issue in this repository.
 ## Contributing
 
 Open a pull request against main.
+
+## Branches
+
+main is the default branch.
