@@ -48,3 +48,7 @@ Open an issue in this repository.
 ## Runtime
 
 Tested on Bun 1.4.2, the version `.github/workflows/ci.yml` pins.
+
+## Testing
+
+Run tests with `bun test`.
