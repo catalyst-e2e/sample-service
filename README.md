@@ -37,10 +37,6 @@ and a couple of tickets to work — nothing here is production code.
 - `GET /greet`: `src/server.ts`, which calls `greet()` in `src/greet.ts` to build the reply
 - The unit tests are in `src/greet.test.ts`
 
-## Reporting problems
-
-Open an issue in this repository.
-
 ## Runtime
 
 Tested on Bun 1.4.2, the version `.github/workflows/ci.yml` pins.
@@ -64,3 +60,7 @@ Open a pull request against main.
 ## Branches
 
 main is the default branch.
+
+## Reporting problems
+
+Open an issue in this repository.
