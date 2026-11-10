@@ -49,10 +49,6 @@ Run tests with `bun test`.
 
 Open an issue in this repository.
 
-## Contributing
-
-Open a pull request against main.
-
 ## Branches
 
 main is the default branch.
@@ -68,3 +64,7 @@ No license file yet.
 ## Running locally
 
 See the repository for setup steps.
+
+## Contributing
+
+Open a pull request against main.
