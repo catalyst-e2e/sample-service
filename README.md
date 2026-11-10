@@ -72,3 +72,7 @@ Open a pull request against main.
 ## Getting help
 
 Open an issue in this repository.
+
+## Testing
+
+See the repository for the test command.
