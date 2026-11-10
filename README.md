@@ -76,3 +76,7 @@ Open an issue in this repository.
 ## Testing
 
 See the repository for the test command.
+
+## Changelog
+
+Changes are listed in the repository history.
