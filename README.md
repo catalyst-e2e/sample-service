@@ -68,3 +68,7 @@ See the repository for setup steps.
 ## Contributing
 
 Open a pull request against main.
+
+## Getting help
+
+Open an issue in this repository.
