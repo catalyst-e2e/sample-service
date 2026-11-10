@@ -45,10 +45,6 @@ Tested on Bun 1.4.2, the version `.github/workflows/ci.yml` pins.
 
 Run tests with `bun test`.
 
-## License
-
-No license file yet.
-
 ## Support
 
 Open an issue in this repository.
@@ -64,3 +60,7 @@ main is the default branch.
 ## Reporting problems
 
 Open an issue in this repository.
+
+## License
+
+No license file yet.
