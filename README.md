@@ -64,3 +64,7 @@ Open an issue in this repository.
 ## License
 
 No license file yet.
+
+## Running locally
+
+See the repository for setup steps.
