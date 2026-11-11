@@ -96,3 +96,7 @@ This service follows semantic versioning.
 ## Maintainers
 
 The catalyst-e2e organization maintains this service.
+
+## Roadmap
+
+Planned work is tracked in the repository issues.
