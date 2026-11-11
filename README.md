@@ -80,3 +80,7 @@ See the repository for the test command.
 ## Changelog
 
 Changes are listed in the repository history.
+
+## Security
+
+Contact the maintainers privately about security issues.
