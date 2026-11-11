@@ -88,3 +88,7 @@ Contact the maintainers privately about security issues.
 ## Code of conduct
 
 Please be respectful to everyone who takes part in this project.
+
+## Versioning
+
+This service follows semantic versioning.
