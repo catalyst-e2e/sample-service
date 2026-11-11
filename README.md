@@ -104,3 +104,7 @@ Planned work is tracked in the repository issues.
 ## Deployment
 
 Deployment is not covered in this sample.
+
+## Acknowledgements
+
+Thanks to the open-source projects this sample uses, especially Bun and TypeScript, and to the people who maintain them.
