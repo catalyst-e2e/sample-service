@@ -1,4 +1,5 @@
 # sample-service
+Run the tests with `bun test`.
 
 A tiny TypeScript HTTP service used to rehearse Catalyst Cloud onboarding end to end.
 
