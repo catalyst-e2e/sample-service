@@ -108,3 +108,14 @@ Deployment is not covered in this sample.
 ## Acknowledgements
 
 Thanks to the open-source projects this sample uses, especially Bun and TypeScript, and to the people who maintain them.
+
+## FAQ
+
+**How do I start the service locally?**
+With Bun installed, run `bun run start` from the repository root.
+
+**How do I check whether the service is healthy?**
+Open `http://localhost:3000/health` on the default port; a healthy service returns `200 OK` with `{"ok":true}`.
+
+**How do I run the tests?**
+Run `bun test` from the repository root.
