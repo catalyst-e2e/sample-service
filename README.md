@@ -125,3 +125,9 @@ Run `bun test` from the repository root.
 - The catalyst-e2e organization owns the repository and maintains the service.
 - Catalyst Cloud runs the onboarding rehearsal this repository exists for.
 - GitHub Actions runs the tests on every pull request.
+
+## Glossary
+
+- **Route**: A URL path the service handles, such as `/health` or `/greet`.
+- **Health check**: A request to `/health` that returns `200 OK` with `{"ok":true}` when the service is healthy.
+- **CI**: Continuous integration, the automated checks GitHub Actions runs for pull requests and changes to main.
