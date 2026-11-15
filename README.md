@@ -119,3 +119,9 @@ Open `http://localhost:3000/health` on the default port; a healthy service retur
 
 **How do I run the tests?**
 Run `bun test` from the repository root.
+
+## Supported by
+
+- The catalyst-e2e organization owns the repository and maintains the service.
+- Catalyst Cloud runs the onboarding rehearsal this repository exists for.
+- GitHub Actions runs the tests on every pull request.
