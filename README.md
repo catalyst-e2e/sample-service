@@ -41,6 +41,12 @@ Set environment variables before starting the service:
 
 For example, run `PORT=43174 bun run start` to listen on port 43174.
 
+## Project layout
+
+- `.catalyst/`: Catalyst project and environment settings.
+- `.github/`: GitHub Actions workflow that runs the tests.
+- `src/`: HTTP service code and colocated unit tests in `greet.test.ts`.
+
 ## Where each route lives
 
 - `GET /health`: `src/server.ts`
