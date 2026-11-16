@@ -31,6 +31,16 @@ To stop the service, press Ctrl+C in the terminal running it.
 This repository is intentionally small: it exists so a fresh tenant has one real repo, one real PR,
 and a couple of tickets to work — nothing here is production code.
 
+## Configuration
+
+Set environment variables before starting the service:
+
+| Setting | Default | Purpose |
+| --- | --- | --- |
+| `PORT` | `3000` | Port the HTTP service listens on. |
+
+For example, run `PORT=43174 bun run start` to listen on port 43174.
+
 ## Where each route lives
 
 - `GET /health`: `src/server.ts`
