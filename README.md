@@ -4,6 +4,36 @@ A tiny TypeScript HTTP service used to rehearse Catalyst Cloud onboarding end to
 
 The service runs with no database and calls no outside service.
 
+## Table of contents
+
+- [Quick start](#quick-start)
+- [Start locally](#start-locally)
+- [Scripts](#scripts)
+- [Configuration](#configuration)
+- [Project layout](#project-layout)
+- [Where each route lives](#where-each-route-lives)
+- [Runtime](#runtime)
+- [Testing](#testing)
+- [Support](#support)
+- [Branches](#branches)
+- [Reporting problems](#reporting-problems)
+- [License](#license)
+- [Running locally](#running-locally)
+- [Contributing](#contributing)
+- [Getting help](#getting-help)
+- [Testing](#testing-1)
+- [Changelog](#changelog)
+- [Security](#security)
+- [Code of conduct](#code-of-conduct)
+- [Versioning](#versioning)
+- [Maintainers](#maintainers)
+- [Roadmap](#roadmap)
+- [Deployment](#deployment)
+- [Acknowledgements](#acknowledgements)
+- [FAQ](#faq)
+- [Supported by](#supported-by)
+- [Glossary](#glossary)
+
 ## Quick start
 
 1. Clone https://github.com/catalyst-e2e/sample-service and open the repository root.
