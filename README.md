@@ -91,13 +91,19 @@ The service writes its startup log to standard output, so look in the terminal w
 
 ## Configuration
 
-Set environment variables before starting the service:
-
 | Setting | Default | Purpose |
 | --- | --- | --- |
 | `PORT` | `3000` | Port the HTTP service listens on. |
 
-For example, run `PORT=43174 bun run start` to listen on port 43174.
+To use a different port, set `PORT` when starting the service from the repository root.
+For example, to listen on port 43174, run this command.
+
+```sh
+PORT=43174 bun run start
+```
+
+Open `http://localhost:43174/health` to check the service on that port.
+It returns `200 OK` with `{"ok":true}`.
 
 ## Project layout
 
