@@ -80,6 +80,10 @@ The service should respond with `200 OK` and the JSON body `{"ok":true}`.
 
 Press Ctrl+C in the terminal where you ran `bun run start`.
 
+## Logs
+
+The service writes its startup log to standard output, so look in the terminal where you ran `bun run start`. It prints one line at startup, `sample-service listening on :3000` by default. If you set `PORT`, the line shows that port.
+
 ## Scripts
 
 - `start` (`bun run start`): Starts the HTTP service on port 3000 by default.
