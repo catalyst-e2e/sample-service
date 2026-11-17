@@ -4,6 +4,12 @@ A tiny TypeScript HTTP service used to rehearse Catalyst Cloud onboarding end to
 
 The service runs with no database and calls no outside service.
 
+## Quick start
+
+1. Clone https://github.com/catalyst-e2e/sample-service and open the repository root.
+2. Install Bun. The service has no packages to install, so there is no install command to run.
+3. From the repository root, run `bun run start`, then open http://localhost:3000/health. A healthy service replies `200 OK` with `{"ok":true}`.
+
 ## Start locally
 
 With Bun installed, run this command from the repository root:
