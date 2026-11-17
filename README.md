@@ -71,6 +71,10 @@ To stop the service, press Ctrl+C in the terminal running it.
 This repository is intentionally small: it exists so a fresh tenant has one real repo, one real PR,
 and a couple of tickets to work — nothing here is production code.
 
+## Stopping the service
+
+Press Ctrl+C in the terminal where you ran `bun run start`.
+
 ## Scripts
 
 - `start` (`bun run start`): Starts the HTTP service on port 3000 by default.
