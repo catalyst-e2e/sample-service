@@ -71,6 +71,11 @@ To stop the service, press Ctrl+C in the terminal running it.
 This repository is intentionally small: it exists so a fresh tenant has one real repo, one real PR,
 and a couple of tickets to work — nothing here is production code.
 
+## Checking it works
+
+After starting the service on the default port, open `http://localhost:3000/health`.
+The service should respond with `200 OK` and the JSON body `{"ok":true}`.
+
 ## Stopping the service
 
 Press Ctrl+C in the terminal where you ran `bun run start`.
