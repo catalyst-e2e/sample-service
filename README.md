@@ -34,6 +34,10 @@ The service runs with no database and calls no outside service.
 - [Supported by](#supported-by)
 - [Glossary](#glossary)
 
+## Prerequisites
+
+- Bun 1.4.2, the runtime and package manager. CI pins this version in `.github/workflows/ci.yml`.
+
 ## Quick start
 
 1. Clone https://github.com/catalyst-e2e/sample-service and open the repository root.
