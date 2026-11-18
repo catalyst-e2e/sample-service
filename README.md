@@ -189,6 +189,10 @@ Please be respectful to everyone who takes part in this project.
 
 This service follows semantic versioning.
 
+## Upgrading
+
+Pull the latest `main` into your clone. The service has no packages to install, so restart it with Ctrl+C and `bun run start`.
+
 ## Maintainers
 
 The catalyst-e2e organization maintains this service.
