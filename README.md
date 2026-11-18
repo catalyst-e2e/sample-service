@@ -149,6 +149,10 @@ See the repository for setup steps.
 
 Open a pull request against main.
 
+## Code style
+
+No formatter is configured yet.
+
 ## Getting help
 
 Open an issue in this repository.
