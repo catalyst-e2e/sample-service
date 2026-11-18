@@ -153,6 +153,10 @@ Open a pull request against main.
 
 No formatter is configured yet.
 
+## Editor setup
+
+This repository provides no editor configuration.
+
 ## Getting help
 
 Open an issue in this repository.
