@@ -137,6 +137,10 @@ main is the default branch.
 
 Open an issue in this repository.
 
+## Reporting issues
+
+Report bugs in the sample service on the [repository's issue tracker](https://github.com/catalyst-e2e/sample-service/issues).
+
 ## License
 
 No license file yet.
