@@ -153,6 +153,10 @@ See the repository for setup steps.
 
 Open a pull request against main.
 
+## Code review
+
+Changes go through a pull request against `main`. CI runs `bun test` on every pull request, as defined in `.github/workflows/ci.yml`.
+
 ## Code style
 
 No formatter is configured yet.
