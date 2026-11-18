@@ -4,6 +4,10 @@ A tiny TypeScript HTTP service used to rehearse Catalyst Cloud onboarding end to
 
 The service runs with no database and calls no outside service.
 
+## Known issues
+
+This onboarding sample has no database and calls no external services. The sample does not cover deployment.
+
 ## Table of contents
 
 - [Quick start](#quick-start)
