@@ -88,6 +88,10 @@ Press Ctrl+C in the terminal where you ran `bun run start`.
 
 The service writes its startup log to standard output, so look in the terminal where you ran `bun run start`. It prints one line at startup, `sample-service listening on :3000` by default. If you set `PORT`, the line shows that port.
 
+## Troubleshooting
+
+If your local run fails, check the terminal where you ran `bun run start` for the `sample-service listening on` line, which shows the port.
+
 ## Scripts
 
 - `start` (`bun run start`): Starts the HTTP service on port 3000 by default.
