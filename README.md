@@ -12,6 +12,10 @@ This is a sample service for rehearsing Catalyst Cloud onboarding.
 
 This onboarding sample has no database and calls no external services. The sample does not cover deployment.
 
+## Contact
+
+The catalyst-e2e organization maintains this service. For project questions, [open an issue in this repository](https://github.com/catalyst-e2e/sample-service/issues).
+
 ## Table of contents
 
 - [Quick start](#quick-start)
