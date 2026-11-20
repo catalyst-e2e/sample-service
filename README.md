@@ -193,6 +193,11 @@ Changes are listed in the repository history.
 
 Contact the maintainers privately about security issues.
 
+## Reporting a vulnerability
+
+Report security problems privately through [GitHub's private vulnerability reporting form](https://github.com/catalyst-e2e/sample-service/security/advisories/new).
+Do not report vulnerabilities in public issues.
+
 ## Code of conduct
 
 Please be respectful to everyone who takes part in this project.
