@@ -1,0 +1,11 @@
+queue_rules:
+  - name: main
+    queue_conditions:
+      - base = main
+      - -draft
+      - -conflict
+      - check-success = test
+      - "#review-threads-unresolved = 0"
+      - "title ~= ^(feat|fix|perf|refactor|docs|test|build|ci|chore|revert|style)(\\([a-z0-9][a-z0-9-]*\\))?!?: [^ ]"
+    merge_conditions:
+      - check-success = test
