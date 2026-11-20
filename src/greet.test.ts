@@ -3,3 +3,5 @@ import { greet } from "./greet";
 
 test("greets by name", () => expect(greet("Tony")).toBe("hello, Tony"));
 test("falls back to world", () => expect(greet(null)).toBe("hello, world"));
+test("trims spaces around a name", () => expect(greet("  Tony  ")).toBe("hello, Tony"));
+test("falls back to world on a spaces-only name", () => expect(greet("   ")).toBe("hello, world"));
