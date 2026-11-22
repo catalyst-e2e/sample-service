@@ -50,6 +50,11 @@ The catalyst-e2e organization maintains this service. For project questions, [op
 
 - Bun 1.4.2, the runtime and package manager. CI pins this version in `.github/workflows/ci.yml`.
 
+## Dependencies
+
+- Bun 1.4.2 to run the service and its tests. CI pins this version in `.github/workflows/ci.yml`.
+- No packages to install.
+
 ## Quick start
 
 1. Clone https://github.com/catalyst-e2e/sample-service and open the repository root.
