@@ -55,6 +55,10 @@ The catalyst-e2e organization maintains this service. For project questions, [op
 - Bun 1.4.2 to run the service and its tests. CI pins this version in `.github/workflows/ci.yml`.
 - No packages to install.
 
+## Setup check
+
+The repository declares one setup step, `ctc-11131-setup-marker`, in `.catalyst/catalyst.toml`, and Catalyst runs it before an agent starts work.
+
 ## Quick start
 
 1. Clone https://github.com/catalyst-e2e/sample-service and open the repository root.
