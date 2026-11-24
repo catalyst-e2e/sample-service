@@ -146,6 +146,16 @@ Tested on Bun 1.4.2, the version `.github/workflows/ci.yml` pins.
 
 Run tests with `bun test`.
 
+## Running tests
+
+Run the tests from the repository root with Bun 1.4.2, the version CI pins:
+
+```sh
+bun test
+```
+
+`bun run test` runs the same command through the `test` script in `package.json`. There are no packages to install first.
+
 ## Support
 
 Open an issue in this repository.
