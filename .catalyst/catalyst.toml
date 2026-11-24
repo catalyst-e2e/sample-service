@@ -7,8 +7,3 @@ linear_workspace = "adva-test"
 [[environment.toolchains]]
 name = "node"
 version = "24.19.0"
-
-[[environment.setup]]
-name = "ctc-11131-setup-marker"
-run = ["sh", "-c", "echo CTC11131_SETUP_MARKER_OK"]
-timeout_seconds = 30
