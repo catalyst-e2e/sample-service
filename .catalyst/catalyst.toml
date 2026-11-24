@@ -12,6 +12,3 @@ version = "24.19.0"
 name = "ctc-11131-setup-marker"
 run = ["sh", "-c", "echo CTC11131_SETUP_MARKER_OK"]
 timeout_seconds = 30
-
-[environment.container]
-egress = ["nodejs.org"]
