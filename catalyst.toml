@@ -1,0 +1,9 @@
+# catalyst.toml: the workspace settings file for Catalyst.
+# Every repository in the workspace gets what this file declares. A repository's own
+# .catalyst/catalyst.toml adds to it, and an entry with the same name replaces this one.
+# Change this file with a pull request. Catalyst applies it once it merges to the default branch.
+# Secret VALUES never go here: store them in Catalyst under Settings → Environment → Secrets.
+
+[[environment.mcp_servers]]
+name = "deepwiki"
+url = "https://mcp.deepwiki.com/mcp"
